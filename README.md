@@ -1,109 +1,127 @@
-📊 Loan Default Risk Prediction App
+# 📊 Loan Default Risk Prediction App
 
-A full-stack web application for predicting the likelihood of loan default based on borrower & loan attributes.
-Built with a React + TypeScript frontend and Flask backend.
+A full-stack web application that predicts the likelihood of loan default based on borrower and loan attributes. The system provides real-time risk assessment using a React + TypeScript frontend and a Flask REST API backend.
 
-🏗️ Tech Stack
+---
 
-Frontend
+## 💡 Project Idea
 
-React + TypeScript
+Financial institutions face significant risks due to loan defaults, which can lead to major financial losses. The idea behind this project is to build an intelligent system that helps banks and lenders assess credit risk before approving loans.
 
-Vite
+By analyzing borrower information such as income, credit score, loan amount, and repayment term, the system uses machine learning to estimate the probability of default. This allows lenders to make data-driven decisions, reduce financial risk, and improve overall loan approval strategies.
 
-Tailwind CSS
+---
 
-shadcn-ui
+## 🏗️ Tech Stack
 
-Backend
+### 🎨 Frontend
+- React + TypeScript
+- Vite
+- Tailwind CSS
+- shadcn-ui
 
-Python + Flask
+### ⚙️ Backend
+- Python
+- Flask
 
-Other
+### 🔗 Other Technologies
+- REST API communication
+- JSON data handling
 
-REST API communication
+---
 
-JSON data handling
+## 🚀 Features
 
-🚀 Features
+- Interactive loan input form
+- Real-time risk prediction
+- Clean and responsive UI
+- Modular TypeScript architecture
+- Flask REST API backend
 
-Interactive loan input form
+---
 
-Real-time risk prediction
+## 📂 Project Structure
 
-Clean & responsive UI
+    root/
+    ├── src/           # React frontend code
+    ├── public/        # Static assets
+    ├── flask-api/     # Backend Flask API
+    ├── package.json   # Frontend configuration
+    ├── tsconfig*.json # TypeScript configs
+    └── README.md      # Documentation
 
-Modular TypeScript architecture
+---
 
-Flask REST API backend
+## 🛠️ Setup Instructions
 
-📦 Project Structure
-root/
- ├── src/                 # React frontend code
- ├── public/              # Static assets
- ├── flask-api/           # Backend Flask API
- ├── package.json         # Frontend configs
- ├── tsconfig*.json       # TypeScript configs
- └── README.md            # Documentation
+### Clone the Repository
 
-🛠️ Setup Instructions
-✅ Clone the repository
-git clone <REPO_URL>
-cd <PROJECT_FOLDER>
+    git clone <REPO_URL>
+    cd <PROJECT_FOLDER>
 
-🎨 Frontend Setup
-npm install
-npm run dev
+---
 
+## 🎨 Frontend Setup
 
-Runs the app in dev mode with hot reload.
+    npm install
+    npm run dev
 
-🔌 Backend (Flask) Setup
-cd flask-api
-pip install -r requirements.txt
-python app.py
+Runs the app in development mode with hot reload.
 
+---
 
-Default backend will run on:
+## 🔌 Backend Setup
 
-http://127.0.0.1:5000
+    cd flask-api
+    pip install -r requirements.txt
+    python app.py
 
-🔗 API Endpoints
-POST /predict
+Backend will run at:
 
-Request Body Example:
+    http://127.0.0.1:5000
 
-{
-  "loan_amount": 200000,
-  "income": 65000,
-  "credit_score": 720,
-  "term": 360
-}
+---
 
+## 🔗 API Endpoint
 
-Response Example:
+### POST /predict
 
-{
-  "default_risk": "Low",
-  "probability": 0.08
-}
+#### Request Example
 
-🌍 Deployment
+    {
+      "loan_amount": 200000,
+      "income": 65000,
+      "credit_score": 720,
+      "term": 360
+    }
 
-Frontend deployment options:
+---
 
-Vercel
+#### Response Example
 
-Netlify
+    {
+      "default_risk": "Low",
+      "probability": 0.08
+    }
 
-GitHub Pages
+---
 
-Backend deployment options:
+## 🌍 Deployment Options
 
-Render
+### Frontend
+- Vercel
+- Netlify
+- GitHub Pages
 
-Railway
+### Backend
+- Render
+- Railway
+- Heroku
+- AWS / GCP / Azure
 
-Heroku
+---
 
-AWS / GCP / Azure
+## 👨‍💻 Author
+
+Jaswanth Kumar  
+B.Tech Data Science – 6th Semester
