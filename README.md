@@ -1,10 +1,10 @@
-# 📊 Loan Default Risk Prediction App
+#  Loan Default Risk Prediction App
 
 A full-stack web application that predicts the likelihood of loan default based on borrower and loan attributes. The system provides real-time risk assessment using a React + TypeScript frontend and a Flask REST API backend.
 
 ---
 
-## 💡 Project Idea
+## Project Idea
 
 Financial institutions face significant risks due to loan defaults, which can lead to major financial losses. The idea behind this project is to build an intelligent system that helps banks and lenders assess credit risk before approving loans.
 
@@ -12,25 +12,25 @@ By analyzing borrower information such as income, credit score, loan amount, and
 
 ---
 
-## 🏗️ Tech Stack
+##  Tech Stack
 
-### 🎨 Frontend
+###  Frontend
 - React + TypeScript
 - Vite
 - Tailwind CSS
 - shadcn-ui
 
-### ⚙️ Backend
+###  Backend
 - Python
 - Flask
 
-### 🔗 Other Technologies
+###  Other Technologies
 - REST API communication
 - JSON data handling
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Interactive loan input form
 - Real-time risk prediction
@@ -40,7 +40,7 @@ By analyzing borrower information such as income, credit score, loan amount, and
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
     root/
     ├── src/           # React frontend code
@@ -52,7 +52,7 @@ By analyzing borrower information such as income, credit score, loan amount, and
 
 ---
 
-## 🛠️ Setup Instructions
+##  Setup Instructions
 
 ### Clone the Repository
 
@@ -61,7 +61,7 @@ By analyzing borrower information such as income, credit score, loan amount, and
 
 ---
 
-## 🎨 Frontend Setup
+##  Frontend Setup
 
     npm install
     npm run dev
@@ -70,7 +70,7 @@ Runs the app in development mode with hot reload.
 
 ---
 
-## 🔌 Backend Setup
+##  Backend Setup
 
     cd flask-api
     pip install -r requirements.txt
@@ -82,7 +82,7 @@ Backend will run at:
 
 ---
 
-## 🔗 API Endpoint
+##  API Endpoint
 
 ### POST /predict
 
@@ -106,7 +106,7 @@ Backend will run at:
 
 ---
 
-## 🌍 Deployment Options
+##  Deployment Options
 
 ### Frontend
 - Vercel
